@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>upload</title>
+    <link href="./css/navigation.css" rel="stylesheet" type="text/css">
+    <link href="./css/upload.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+    <h3>
+        <nav>
+            <div class="nav-left">
+                <img id="logo" src="../images/others/logo.jpg" height="30">
+                <a href="home.html">&nbsp&nbsp&nbsp Home &nbsp&nbsp&nbsp </a>
+                <a href="browse.html">&nbsp&nbsp&nbsp Browse &nbsp&nbsp&nbsp </a>
+                <a href="search.html">&nbsp&nbsp&nbsp Search &nbsp&nbsp&nbsp </a>
+
+                <!--下拉菜单-->
+                <aside>
+                    <div class="dropdown">
+                        <div class="account">My Account</div>
+                        <div class="dropdown-menu">
+                            <a href="upload.html" class="picture"><img src="../images/icons/upload.png">Upload</a>
+                            <a href="my_photo.html" class="picture"><img src="../images/icons/myphoto.png" >My Photo</a><br>
+                            <a href="favor.html" class="picture"><img src="../images/icons/favor.png">My Favorite</a><br>
+                            <a href="../index.html" class="picture"><img src="../images/icons/login.png">Login</a><br>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </nav>
+    </h3>
+</header>
+
+<div id="upload">
+    <p id="title">Upload</p>
+<div id="detail"><img id="upload-img" src="../images/others/background.png" height="200px" alt="未上传"><br>
+    <input type="file" onchange="previewFile()">
+
+    <div class="information">
+    <p>图片标题：</p>
+    <input type="text" name="title">
+    <br>
+
+    <p>图片描述：</p>
+    <textarea name="textarea" id="textarea"></textarea>
+    <p>拍摄国家：</p>
+    <input type="text" name="title">
+    <p>拍摄城市</p>
+    <input type="text" name="title">
+    </div>
+    <a href="my_photo.html" class="submit_button">&nbsp&nbsp&nbsp Submit &nbsp&nbsp&nbsp </a>
+    </div>
+
+</div>
+
+</body>
+
+<footer>
+    Copyright© 2019-2027 I'm a Pro, as in Procrastinator.备案号：19302010063
+</footer>
+
+
+<script lang="javascript">
+    function previewFile() {
+        var preview = document.getElementById('upload-img');
+        var file    = document.querySelector('input[type=file]').files[0];
+        var reader  = new FileReader();
+        reader.onloadend = function () {
+            preview.src = reader.result;
+        }
+
+        if (file) {
+            reader.readAsDataURL(file);
+        } else {
+            preview.src = "";
+        }
+    }
+
+</script>
+
+</html>

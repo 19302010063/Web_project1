@@ -1,0 +1,133 @@
+h4 {
+    margin-top: 5px;
+}
+
+div#search {
+    color: rgba(123, 41, 156, 0.98);
+    margin-left: 20px;
+    width: 1420px;
+    height: 350px;
+    background-image: linear-gradient(#ffffff, #dbd1e8);
+    border: 1px solid #c6d1dc;
+    border-radius: 10px;
+}
+
+div#filter {
+    margin-left: -1px;
+    color: #f9adad;
+    width: 1420px;
+    height: 280px;
+    background-color: white;
+    border: 1px solid #c6d1dc;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+input,
+textarea {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+input[type="text"] {
+    /* 去掉点上去的蓝框 */
+    outline: none;
+    border-radius: 5px;
+    background-image: linear-gradient(#ffffff, rgba(255, 234, 234, 0.59));
+    border: #f9adad solid 1px;
+    width: 1250px;
+}
+
+textarea {
+    /* 去掉点上去的蓝框 */
+    outline: none;
+    height: 80px;
+    width: 1300px;
+    border-radius: 5px;
+    background-image: linear-gradient(#ffffff, rgba(255, 234, 234, 0.59));
+    border: #f9adad solid 1px;
+}
+
+.search_button {
+    cursor: pointer;
+    margin-left: 15px;
+    padding-top: 8px;
+    width: 80px;
+    height: 40px;
+    border: thin solid #afafaf;
+    border-radius: 7px;
+    background-image: linear-gradient(#ffffff, #ffeaea);
+    text-align: center;
+    font-weight: bold;
+    color: #e96d4d;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.search_button:hover {
+    background-image: linear-gradient(#ffeaea, #ffffff);
+}
+
+div#result {
+    margin-top: 30px;
+    color: rgba(123, 41, 156, 0.98);
+    margin-left: 20px;
+    width: 1420px;
+    height: 1480px;
+    background-image: linear-gradient(#ffffff, #dbd1e8);
+    border: 1px solid #c6d1dc;
+    border-radius: 10px;
+}
+
+.display {
+    margin-top: -1px;
+    margin-left: -1px;
+    color: #f9adad;
+    width: 1420px;
+    height: 280px;
+    background-color: white;
+    border: 1px solid #c6d1dc;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.photos {
+    margin-left: -1px;
+    width: 1420px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid #c6d1dc;
+}
+
+.image {
+    display: inline-block;
+}
+
+.photo {
+    border-radius: 0;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 350px;
+}
+
+.data_title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.data {
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.description {
+    margin-bottom: 10px;
+    margin-top: -8px;
+    font-weight: normal;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 920px;
+    color: black;
+}

@@ -1,0 +1,129 @@
+img#detail {
+    width: 500px;
+    margin-left: 50px;
+}
+
+div#details {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 80px;
+    width: 1420px;
+    height: 750px;
+    background-image: linear-gradient(#ffffff, #ffeaea);
+    /*渐变色*/
+    border:1px solid #f9adad;
+    border-radius: 10px;
+}
+
+div#text {
+    border-width: 1px;
+    border-style: solid;
+    margin-left: -1px;
+    margin-right: -1px;
+    height: 714px;
+    background-color: white;
+    color: black;
+    border-color: #f9adad;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+h4 {
+    font-family: Geneva;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+title1 {
+    font-family: 雅黑;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 50%;
+}
+div#title1 {
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+div#image {
+    margin-top: 50px;
+    width: 50%;
+    float: left;
+}
+div#data {
+    margin-top: 50px;
+    width: 50%;
+    float: left;
+}
+
+ul {
+    font-weight: bold;
+    margin-left: 40px;
+    margin-right: 50px;
+    list-style: none;
+    font-size: 20px;
+    color: #da614d;
+}
+
+li {
+    height: 30px;
+}
+
+li[class='title'] {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: linear-gradient(#ffffff, #ffeaea);
+    border:1px solid #f9adad;
+    position: center;
+    background-color: #f3f5f8;
+}
+
+li[class='data'] {
+    font-size: 18px;
+    font-weight: normal;
+    border:1px solid #f9adad;
+    position: center;
+}
+
+li#like {
+    height: 40px;
+    border:1px solid #f9adad;
+    text-align: center;
+    font-weight: bolder;
+    color: #d3382d;
+    font-size: 30px;
+    font-family: Algerian;
+}
+
+div#favor {
+    border-width: 2px;
+    cursor: pointer;
+    margin-top: 50px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #d3382d;
+    text-align: center;
+    font-weight: bold;
+    font-color: white;
+    font-size: 30px;
+}
+
+li[class='favor'] {
+    color: white;
+}
+
+input[name="title"] {
+    color: white;
+    background-color: #598dff;
+    border: #ffffff solid 1px;
+    text-align: center;
+    position: relative;
+}
+.description{
+    margin-left: 30px;
+    margin-top: 450px;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 1320px;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>search</title>
+    <link href="./css/navigation.css" rel="stylesheet" type="text/css">
+    <link href="./css/search.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+    <h3>
+        <nav>
+            <div class="nav-left">
+                <img id="logo" src="../images/others/logo.jpg" height="30">
+                <a href="home.html">&nbsp&nbsp&nbsp Home &nbsp&nbsp&nbsp </a>
+                <a href="browse.html">&nbsp&nbsp&nbsp Browse &nbsp&nbsp&nbsp </a>
+                <a href="search.html" id="highlight">&nbsp&nbsp&nbsp Search &nbsp&nbsp&nbsp </a>
+
+                <!--下拉菜单-->
+                <aside>
+                    <div class="dropdown">
+                        <div class="account">My Account</div>
+                        <div class="dropdown-menu">
+                            <a href="upload.html" class="picture"><img src="../images/icons/upload.png">Upload</a>
+                            <a href="my_photo.html" class="picture"><img src="../images/icons/myphoto.png" >My Photo</a><br>
+                            <a href="favor.html" class="picture"><img src="../images/icons/favor.png">My Favorite</a><br>
+                            <a href="../index.html" class="picture"><img src="../images/icons/login.png">Login</a><br>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </nav>
+    </h3>
+</header>
+<div id="search">
+    <h4><br>&nbsp&nbsp&nbspSearch</h4>
+    <div id="filter">
+<!--        选项框-->
+        <input type="radio" value="agree" name="agree" required>Filter by Title
+        <br>
+        <input type="text" name="title">
+        <br>
+        <input type="radio" value="disagree" name="agree">Filter by Description
+        <br>
+<!--        文本输入框-->
+        <textarea name="textarea" id="textarea"></textarea>
+        <br>
+        <p class="search_button" onclick="alert('以下是搜索结果~')">Filter</p>
+    </div>
+</div>
+<div id="result">
+<!--    图片，标题和介绍都分成了class，方便css的设置-->
+    <h4><br>&nbsp&nbsp&nbspResult</h4>
+    <div class="display">
+        <div class="photos">
+            <div class="image">
+                <a href="details.html"><img class="photo"  src="../images/travel-images/normal/medium/1.jpg"></a>
+            </div>
+            <div class="data">
+                <p class="data_title">Title</p>
+                <h5 class="description">Lorem ipsum dolor sit amet, consectetaurept adipisicing elit, sed do eiusmod tempor incididunt ut labore etra dolore magna aliqua. Ut enim ad minim veniam, quis nostrudake exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inter reprehenderit in voluptate velit esse cilslum dolore eu fugiat nulla pariatur.   Excepteur sint occaecat cupidatat non atter proident, sunt in culpa qui officianmn deserunt mollit anim id est laborum Et harumd und lookum like Greek to me, dereud facilise haha st er expedit distinct deserunt mollit anim id est laborum Et harumd und lookum like Greek to me, dereud facilis est er expedit distinct.
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="display">
+        <div class="photos">
+            <div class="image">
+                <a href="details.html"><img class="photo"  src="../images/travel-images/normal/medium/1.jpg"></a>
+            </div>
+            <div class="data">
+                <p class="data_title">Title</p>
+                <h5 class="description">Lorem ipsum dolor sit amet, consectetaurept adipisicing elit, sed do eiusmod tempor incididunt ut labore etra dolore magna aliqua. Ut enim ad minim veniam, quis nostrudake exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inter reprehenderit in voluptate velit esse cilslum dolore eu fugiat nulla pariatur.   Excepteur sint occaecat cupidatat non atter proident, sunt in culpa qui officianmn deserunt mollit anim id est laborum Et harumd und lookum like Greek to me, dereud facilise haha st er expedit distinct deserunt mollit anim id est laborum Et harumd und lookum like Greek to me, dereud facilis est er expedit distinct.
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="display">
+        <div class="photos">
+            <div class="image">
+                <a href="details.html"><img class="photo"  src="../images/travel-images/normal/medium/1.jpg"></a>
+            </div>
+            <div class="data">
+                <p class="data_title">Title</p>
+                <h5 class="description">Lorem ipsum dolor sit amet, consectetaurept adipisicing elit, sed do eiusmod tempor incididunt ut labore etra dolore magna aliqua. Ut enim ad minim veniam, quis nostrudake exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inter reprehenderit in voluptate velit esse cilslum dolore eu fugiat nulla pariatur.   Excepteur sint occaecat cupidatat non atter proident, sunt in culpa qui officianmn deserunt mollit anim id est laborum Et harumd und lookum like Greek to me, dereud facilise haha st er expedit distinct deserunt mollit anim id est laborum Et harumd und lookum like Greek to me, dereud facilis est er expedit distinct.
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="display">
+        <div class="photos">
+            <div class="image">
+                <a href="details.html"><img class="photo"  src="../images/travel-images/normal/medium/1.jpg"></a>
+            </div>
+            <div class="data">
+                <p class="data_title">Title</p>
+                <h5 class="description">Lorem ipsum dolor sit amet, consectetaurept adipisicing elit, sed do eiusmod tempor incididunt ut labore etra dolore magna aliqua. Ut enim ad minim veniam, quis nostrudake exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inter reprehenderit in voluptate velit esse cilslum dolore eu fugiat nulla pariatur.   Excepteur sint occaecat cupidatat non atter proident, sunt in culpa qui officianmn deserunt mollit anim id est laborum Et harumd und lookum like Greek to me, dereud facilise haha st er expedit distinct deserunt mollit anim id est laborum Et harumd und lookum like Greek to me, dereud facilis est er expedit distinct.
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="display">
+        <div class="photos">
+            <div class="image">
+                <a href="details.html"><img class="photo"  src="../images/travel-images/normal/medium/1.jpg"></a>
+            </div>
+            <div class="data">
+                <p class="data_title">Title</p>
+                <h5 class="description">Lorem ipsum dolor sit amet, consectetaurept adipisicing elit, sed do eiusmod tempor incididunt ut labore etra dolore magna aliqua. Ut enim ad minim veniam, quis nostrudake exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inter reprehenderit in voluptate velit esse cilslum dolore eu fugiat nulla pariatur.   Excepteur sint occaecat cupidatat non atter proident, sunt in culpa qui officianmn deserunt mollit anim id est laborum Et harumd und lookum like Greek to me, dereud facilise haha st er expedit distinct deserunt mollit anim id est laborum Et harumd und lookum like Greek to me, dereud facilis est er expedit distinct.
+                </h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+<footer>
+    Copyright© 2019-2027 I'm a Pro, as in Procrastinator.备案号：19302010063
+</footer>
+
+</html>

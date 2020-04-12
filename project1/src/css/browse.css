@@ -1,0 +1,155 @@
+div#content {
+    height: 1400px;
+}
+
+div-left {
+    display: inline-block;
+    width: 20%;
+    float: left;
+}
+
+div#top {
+    color: #f9adad;
+    margin-left: 20px;
+    padding-top: 8px;
+    width: 250px;
+    height: 80px;
+    background-color: #ffeaea;
+    border: 1px solid #f9adad;
+    border-radius: 5px;
+}
+
+div#title {
+    margin-top: 8px;
+    height: 51px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+}
+
+textarea {
+    margin-top: 10px;
+    width: 200px;
+}
+
+.second {
+    border: 1px solid #f9adad;
+    background-color: white;
+    height: 275px;
+    margin-top: 15px;
+    color: #f9adad;
+    margin-left: 20px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.topic {
+    padding-top: 8px;
+    margin-bottom: 12px;
+    color: #f9adad;
+    width: 250px;
+    height: 40px;
+    background-color: #ffeaea;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.item {
+    padding-left: 15px;
+    margin-top: 2px;
+    border-bottom: 1px solid #f9adad;
+    width: 235px;
+    height: 30px;
+    collapse: collapse;
+    cursor: pointer;
+}
+
+.last {
+    border-bottom-width: 0px;
+    padding-left: 15px;
+}
+
+div#third {
+    border: 1px solid #f9adad;
+    background-color: white;
+    height: 240px;
+    margin-top: 15px;
+    color: #f9adad;
+    margin-left: 20px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+select {
+    /* 去掉选中时的蓝框 */
+    outline: none;
+    margin-left: 15px;
+    border: 1px solid #acaacd;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    background-image: linear-gradient(#ffffff, rgba(241, 230, 255, 0.63));
+    font-weight: bold;
+    color: #7b299c;
+    font-size: 18px;
+}
+
+div-right {
+    display: inline-block;
+    /*width: 50%;*/
+    /*float: left;*/
+    /*position: fixed;*/
+    color: #f9adad;
+    /*margin-left: 20px;*/
+    width: 1150px;
+    height: 1315px;
+    background-color: #ffeaea;
+    border: 1px solid #f9adad;
+    border-radius: 5px;
+}
+
+.small tilte {
+    font-size: 15px;
+    padding-top: 3px;
+    padding-left: 13px;
+}
+
+.alert {
+    text-align: center;
+    margin-top: -1px;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    background-color: #ffeaea;
+    border: 1px solid #f9adad;
+    border-radius: 5px;
+}
+
+.filter {
+    margin-top: -5px;
+    padding-top: 20px;
+    height: 60px;
+    border-bottom: 1px solid #f9adad;
+    border-top: 1px solid #f9adad;
+    background-color: white;
+}
+
+.travelimage {
+    margin: 20px 20px 20px 20px;
+    height: 230px;
+    width: 230px;
+    border-radius: 0;
+    object-fit: cover;
+}
+
+.image {
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+p#page {
+    text-align: center;
+    color: #f9adad;
+    font-stretch: semi-condensed;
+}

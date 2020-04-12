@@ -1,0 +1,51 @@
+
+img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top:50%;
+    left:30%;
+}
+
+h3{
+    text-align: center;
+    color: rgba(255, 113, 90, 0.88);
+}
+body{
+    margin:100px auto;
+    width:400px;
+    height:100px;
+}
+
+div{
+    top:50%;
+    background-image: linear-gradient(#ffffff, rgba(255, 234, 234, 0.55));
+    border:2px solid rgba(255, 234, 234, 0.95);
+    border-radius: 5px;
+    text-align: center;
+}
+
+input{
+    border-radius: 5px;
+    width: 180px;
+    height: 23px;
+}
+input[type="login"] {
+    color: white;
+    background-color: #f9adad;
+    border: #ffffff solid 1px;
+    text-align: center;
+    position:relative;
+}
+
+a{text-decoration:none;
+  color: rgba(249, 173, 173, 0.97);
+    font-weight: bold;
+}
+footer{
+    position: fixed;
+    top:100%;
+    left: 3%;
+    margin-top:-50px;
+}
+

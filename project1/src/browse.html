@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>browse</title>
+    <link href="./css/navigation.css" rel="stylesheet" type="text/css">
+    <link href="./css/browse.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+    <h3>
+        <nav>
+            <div class="nav-left">
+                <img id="logo" src="../images/others/logo.jpg" height="30">
+                <a href="home.html">&nbsp&nbsp&nbsp Home &nbsp&nbsp&nbsp </a>
+                <a href="browse.html" id="highlight">&nbsp&nbsp&nbsp Browse &nbsp&nbsp&nbsp </a>
+                <a href="search.html">&nbsp&nbsp&nbsp Search &nbsp&nbsp&nbsp </a>
+
+                <!--下拉菜单-->
+                <aside>
+                    <div class="dropdown">
+                        <div class="account">My Account</div>
+                        <div class="dropdown-menu">
+                            <a href="upload.html" class="picture"><img src="../images/icons/upload.png">Upload</a>
+                            <a href="my_photo.html" class="picture"><img src="../images/icons/myphoto.png" >My Photo</a><br>
+                            <a href="favor.html" class="picture"><img src="../images/icons/favor.png">My Favorite</a><br>
+                            <a href="../index.html" class="picture"><img src="../images/icons/login.png">Login</a><br>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </nav>
+    </h3>
+</header>
+
+
+<div id="content">
+<div-left>
+<!--    大体分成了左边的div和右边的div，具体的左边不同的搜索方式也是不同的div-->
+    <div id="top">
+        &nbsp&nbsp&nbspSearch by Title
+    <div id="title">
+        <textarea></textarea><img src="../images/icons/search.png" onclick="alert('以下是搜索结果~')" height="25px">
+        </div>
+    </div>
+
+    <div class="second">
+    <div class="topic">
+        &nbsp&nbsp&nbspImage Details
+    </div>
+        <p class="item" onclick="alert('以下是搜索结果~')">Scenery</p>
+        <p class="item" onclick="alert('以下是搜索结果~')">City</p>
+        <p class="item" onclick="alert('以下是搜索结果~')">People</p>
+        <p class="item" onclick="alert('以下是搜索结果~')">Animal</p>
+        <p class="last" onclick="alert('以下是搜索结果~')">Building</p>
+    </div>
+
+    <div id="third">
+        <div class="topic">
+            &nbsp&nbsp&nbspHot Country
+        </div>
+        <p class="item" onclick="alert('以下是搜索结果~')">China</p>
+        <p class="item" onclick="alert('以下是搜索结果~')">America</p>
+        <p class="item" onclick="alert('以下是搜索结果~')">Italy</p>
+        <p class="last" onclick="alert('以下是搜索结果~')">Japan</p>
+    </div>
+
+    <div class="second">
+        <div class="topic">
+            &nbsp&nbsp&nbspHot City
+        </div>
+        <p class="item" onclick="alert('以下是搜索结果~')">Shanghai</p>
+        <p class="item" onclick="alert('以下是搜索结果~')">Tokyo</p>
+        <p class="item" onclick="alert('以下是搜索结果~')">Washington</p>
+        <p class="item" onclick="alert('以下是搜索结果~')">Paris</p>
+        <p class="last" onclick="alert('以下是搜索结果~')">London</p>
+    </div>
+</div-left>
+
+<div-right>
+    <p class="small title">Filter</p>
+<div class="filter">
+    <select class="sel">
+        <option value="content" selected = "selected">Filter by Content</option>
+        <option value="China">Scenery</option>
+        <option value="Japan">City</option>
+        <option value="Italy">People</option>
+        <option value="America">Animal</option>
+        <option value="America">Building</option>
+    </select>
+    <select id="select" class="sel">
+        <option value="country" selected = "selected">Filter by Country</option>
+        <option value="China">China</option>
+        <option value="Japan">Japan</option>
+        <option value="Italy">Italy</option>
+        <option value="America">America</option>
+    </select>
+    <select id="val" class="sel"></select>　　
+    <p class="alert" onclick="alert('以下是搜索结果~')">Filter</p>
+</div>
+    <div class="image">
+        <table>
+            <tr>
+<!--                用onclick来作对详情页的跳转-->
+                <td><img src="../images/travel-images/normal/medium/1.jpg" onclick="window.location.href='./details.html'" class="travelimage"></td>
+                <td><img src="../images/travel-images/normal/medium/2.jpg" onclick="window.location.href='./details.html'" class="travelimage"></td>
+                <td><img src="../images/travel-images/normal/medium/3.jpg" onclick="window.location.href='./details.html'" class="travelimage"></td>
+                <td><img src="../images/travel-images/normal/medium/4.jpg" onclick="window.location.href='./details.html'" class="travelimage"></td>
+            </tr>
+            <tr>
+                <td><img src="../images/travel-images/normal/medium/5.jpg" onclick="window.location.href='./details.html'" class="travelimage"></td>
+                <td><img src="../images/travel-images/normal/medium/6.jpg" onclick="window.location.href='./details.html'" class="travelimage"></td>
+                <td><img src="../images/travel-images/normal/medium/7.jpg" onclick="window.location.href='./details.html'" class="travelimage"></td>
+                <td><img src="../images/travel-images/normal/medium/8.jpg" onclick="window.location.href='./details.html'" class="travelimage"></td>
+            </tr>
+            <tr>
+                <td><img src="../images/travel-images/normal/medium/9.jpg" onclick="window.location.href='./details.html'" class="travelimage"></td>
+                <td><img src="../images/travel-images/normal/medium/10.jpg" onclick="window.location.href='./details.html'" class="travelimage"></td>
+                <td><img src="../images/travel-images/normal/medium/11.jpg" onclick="window.location.href='./details.html'" class="travelimage"></td>
+                <td><img src="../images/travel-images/normal/medium/12.jpg" onclick="window.location.href='./details.html'" class="travelimage"></td>
+            </tr>
+            <tr>
+                <td><img src="../images/travel-images/normal/medium/13.jpg" onclick="window.location.href='./details.html'" class="travelimage"></td>
+                <td><img src="../images/travel-images/normal/medium/14.jpg" onclick="window.location.href='./details.html'"class="travelimage"></td>
+                <td><img src="../images/travel-images/normal/medium/15.jpg" onclick="window.location.href='./details.html'"class="travelimage"></td>
+                <td><img src="../images/travel-images/normal/medium/16.jpg" onclick="window.location.href='./details.html'" class="travelimage"></td>
+            </tr>
+        </table>
+        <p id="page"><<1 2 3 4 5 >></p>
+        <br>
+    </div>
+</div-right>
+</div>
+</body>
+<!--联动的选择框-->
+<script lang="javascript">
+    var select = document.getElementById("select");
+    select.onchange=function(){
+        var selvalue = select.value;
+        var val = document.getElementById("val");
+        switch(selvalue){
+            case "China" : val.innerHTML="<option>Shanghai</option><option>Beijing</option><option>Yantai</option>";break;
+            case "Japan" : val.innerHTML="<option>Tokyo</option><option>Osaka</option><option>Kamakura</option>";break;
+            case "Italy" : val.innerHTML="<option>Roma</option><option>Milan</option><option>Venice</option><option>Florence</option>";break;
+            case "America" : val.innerHTML="<option>New York</option><option>San Francisco</option><option>Washington</option>";break;
+            default : alert("erro");
+        }
+    };
+</script>
+<footer>
+    Copyright© 2019-2027 I'm a Pro, as in Procrastinator.备案号：19302010063
+</footer>
+</html>
